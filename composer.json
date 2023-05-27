@@ -1,0 +1,14 @@
+{
+    "name": "omid-aghakhani/payment",
+    "description": "pay with different payment method",
+    "type": "library",
+    "license": "MIT",
+	"version":"1.0.0",
+	"autoload": {
+		"files": [
+		"src/Payment.php",
+		"src/drivers/Payment_pay.php","src/drivers/Payment_paystar.php","src/drivers/Payment_zarinpal.php","src/drivers/nusoap.php"]
+	},
+    "minimum-stability": "stable",
+    "require": {}
+}
